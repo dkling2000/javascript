@@ -18,7 +18,7 @@ ufosTable.forEach((ufoReport) => {
 
  // Filter the table by Date
  let submit = d3.select("#filter-btn");
- let inputElement = d3.select('#dateime');
+ let inputElement = d3.select('#datetime');
  let inputValue = inputElement.property('value')
 
  console.log(inputValue)
@@ -38,4 +38,4 @@ ufosTable.forEach((ufoReport) => {
   
   
 // Prevent the page from refreshing
-  // d3.event.preventDefault();
+// d3.event.preventDefault();
